@@ -1,0 +1,55 @@
+@keyframes animasi {
+    100%{
+        background-position: 25% 50%;
+    }
+}
+body {
+    background-image: url(subtle-prism.svg);
+    background-size: cover;
+    animation: animasi 1s infinite alternate ease-in;
+}
+.box{
+    background-color: aliceblue;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 25px;
+    
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+.button{
+    background-color: blue;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    text-align: center;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.paragraph{
+    margin-bottom: 40px;
+}
+
+.image-box{
+    background-image: url("joel-filipe-jU9VAZDGMzs-unsplash.jpg");
+    height: 180px;
+    background-size: cover;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.text-box{
+    padding: 8px 30px 30px 30px;
+}
+
+.footer{
+    background-color: blue;
+    height: 50px;
+    border-radius: 0px 0px 25px 25px;
+    color: white;
+    padding: 20px;
+}
+.paralax1{
+    background-image: none;
+    background-size: cover;
+}

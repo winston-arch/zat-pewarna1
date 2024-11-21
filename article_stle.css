@@ -1,0 +1,32 @@
+.paralax1{
+    background-image: url("joel-filipe-jU9VAZDGMzs-unsplash.jpg");
+    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    font-size: 40px;
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+.paragraph1{
+    font-family: Open Sans, sans-serif;
+    margin: 10px 30px 10px 30px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.paralax2{
+    background-image: url("jil.png");
+    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+}
+
+.paralax3{
+    background-image: url("jon.jpeg");
+    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+}
+
